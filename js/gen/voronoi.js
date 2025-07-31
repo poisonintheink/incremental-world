@@ -1,4 +1,5 @@
 import { SimplexNoise } from '../core/simplex.js';
+import { poissonDiskSample } from './poisson.js';
 
 // Build a Voronoi diagram over the given land mask. Returns an object with
 // `segments` (border polylines) and `regions` (Voronoi cells as polygons).
